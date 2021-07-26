@@ -270,3 +270,4 @@ coverage.cobertura.xml
 
 #Stryker mutation tests
 StrykerOutput/
+*.suo
