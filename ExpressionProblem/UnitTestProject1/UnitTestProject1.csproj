@@ -54,10 +54,27 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassicSolutionWithJustComposition\ClassicSolutionWithJustCompositionTests.cs" />
+    <Compile Include="Classic\ClassicObjectAlgebraSolutionTests.cs" />
+    <Compile Include="Classic\ClassicStatementTests.cs" />
+    <Compile Include="Composition\CompositionSolutionTests.cs" />
+    <Compile Include="CustomTests\ObjectAlgebraCustomSolutionTests.cs" />
+    <Compile Include="ObjectAlgebra\ObjectAlgebraSolutionTests.cs" />
+    <Compile Include="ObjectAlgebra\ProblemStatementTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProblemSolutions\ProblemSolutions.csproj">
+      <Project>{4f89baf0-3aa7-4f98-bd07-6cd446dd71f5}</Project>
+      <Name>ProblemSolutions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProblemStatements\ProblemStatements.csproj">
+      <Project>{afa6326b-ac9a-4010-a380-95a44ac4ecc6}</Project>
+      <Name>ProblemStatements</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
