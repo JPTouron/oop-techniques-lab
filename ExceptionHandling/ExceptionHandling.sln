@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{EAD86E95-43B2-4BA8-B036-6C605D96ADCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{B700F775-1717-447D-98C2-63DDAF67ED7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAD86E95-43B2-4BA8-B036-6C605D96ADCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD86E95-43B2-4BA8-B036-6C605D96ADCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD86E95-43B2-4BA8-B036-6C605D96ADCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD86E95-43B2-4BA8-B036-6C605D96ADCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B700F775-1717-447D-98C2-63DDAF67ED7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B700F775-1717-447D-98C2-63DDAF67ED7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B700F775-1717-447D-98C2-63DDAF67ED7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B700F775-1717-447D-98C2-63DDAF67ED7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7CA9ACA-E909-45D4-A06D-1DC82A59DC92}
+	EndGlobalSection
+EndGlobal
